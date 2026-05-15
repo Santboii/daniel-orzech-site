@@ -107,26 +107,33 @@ export const services: Service[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Daniel was great to work with. He came all the way out to Niles to help us out.",
+      "Daniel was great to work with. He came all the way out to Niles to help us out with light fixture swaps and other tasks. Will definitely hire him again.",
     author: "T.F.",
     location: "Morton Grove, IL",
     year: 2020,
   },
   {
     quote:
-      "Daniel came to my house to give me a quote for several projects. He provided me with great advice.",
+      "Daniel came to my house to give me a quote for several projects. He really knows the trade and provided me with great advice.",
     author: "M.C.",
     location: "Libertyville, IL",
     year: 2021,
   },
   {
     quote:
-      "Dan came to my rescue and removed and installed the new dishwasher at a reasonable price! Extremely knowledgeable, professional and expedient!",
+      "Daniel Orzech is the man to call if you need something done. He came to my rescue and installed the new dishwasher at a very reasonable price. Extremely knowledgeable, professional and expedient!",
     author: "K.M.",
     location: "Gurnee, IL",
-    year: 2023,
+    year: 2025,
   },
 ];
+
+export const neighborQualities = [
+  "Reasonably Priced",
+  "Trustworthy",
+  "Detail-Oriented",
+  "Attentive & Thorough",
+] as const;
 
 export const galleryCategories = [
   "All",

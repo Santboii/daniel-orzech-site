@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
-import { services, testimonials } from "@/lib/data";
+import { services, testimonials, neighborQualities } from "@/lib/data";
 import Link from "next/link";
 
 const featuredServices = services.slice(0, 3);
@@ -71,6 +71,30 @@ export default function Home() {
             {testimonials.map((t, i) => (
               <TestimonialCard key={i} testimonial={t} />
             ))}
+          </div>
+
+          {/* Neighbor qualities */}
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
+            <span className="text-slate-custom text-sm">Neighbors describe Daniel as:</span>
+            {neighborQualities.map((q) => (
+              <span
+                key={q}
+                className="border border-copper/40 text-copper text-sm px-4 py-1.5 rounded-full"
+              >
+                {q}
+              </span>
+            ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <a
+              href="https://nextdoor.com/page/daniel-orzech-gurnee-il"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-copper text-sm font-semibold hover:text-copper-light transition-colors"
+            >
+              See all 161 recommendations on Nextdoor &rarr;
+            </a>
           </div>
         </div>
       </section>

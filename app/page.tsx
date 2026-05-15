@@ -102,15 +102,15 @@ export default function Home() {
       {/* CTA */}
       <section className="bg-copper py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="italic text-white/70 mb-4" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
-            With God everything is possible.
+          <p className="text-white text-2xl md:text-3xl mb-6" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+            <em>&ldquo;With God everything is possible.&rdquo;</em>
           </p>
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Start Your Project?
           </h2>
           <p className="text-white/80 mb-8 max-w-lg mx-auto">
-            Get a free estimate for your next renovation. Serving Gurnee and
-            the greater Chicago suburban area.
+            Every job begins with prayer and ends with a handshake. Get a free
+            estimate for your next renovation.
           </p>
           <Link
             href="/contact"

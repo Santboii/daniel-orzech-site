@@ -10,15 +10,15 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-navy-900/90 via-navy-900/60 to-navy-900/20" />
       <div className="relative max-w-6xl mx-auto px-4 py-24 w-full">
         <div className="max-w-xl">
-          <p className="text-copper-light text-sm font-bold tracking-[3px] uppercase mb-5">
-            {businessInfo.subline}
+          <p className="text-copper text-xl md:text-2xl mb-6 leading-relaxed" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+            <em>{businessInfo.motto}</em>
           </p>
           <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-5 drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
             {businessInfo.tagline}
           </h1>
           <p className="text-white/80 text-lg mb-10 leading-relaxed">
-            Serving {businessInfo.location} and the greater Chicago suburbs.
-            Nextdoor Neighborhood Favorite — 2025 &amp; 2026.
+            {businessInfo.subline}. Serving {businessInfo.location} and the
+            greater Chicago suburbs.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link

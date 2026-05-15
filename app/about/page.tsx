@@ -32,10 +32,20 @@ export default function AboutPage() {
             />
           </div>
           <div className="bg-white rounded shadow-sm p-8 md:p-12">
-            <h2 className="text-2xl font-bold text-navy-900 mb-6">
-              Built on Trust, Driven by Craft
+            <h2 className="text-2xl font-bold text-navy-900 mb-2">
+              Built on Faith, Driven by Craft
             </h2>
+            <p className="text-copper text-lg mb-6" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+              <em>&ldquo;With God everything is possible.&rdquo;</em>
+            </p>
             <div className="text-gray-700 leading-relaxed space-y-4">
+              <p>
+                I put God first in everything I do. Before every job, I pray
+                over the work, the home, and the people who live in it. That&apos;s
+                not just something I say &mdash; it&apos;s how I start every
+                single project. My faith is the foundation of my business, and
+                it shapes the way I treat every client and every home.
+              </p>
               <p>
                 I&apos;m a general contractor based in Gurnee, Illinois,
                 specializing in custom residential and commercial renovations.
@@ -44,10 +54,10 @@ export default function AboutPage() {
                 full-service approach to every project.
               </p>
               <p>
-                I&apos;ve built my reputation through quality work and genuine
-                care for my clients. I go beyond the task list &mdash; walking
-                you through your options, explaining the work, and making sure
-                every detail is right.
+                I go beyond the task list &mdash; walking you through your
+                options, explaining the work, and making sure every detail is
+                right. I treat every home like my own and every client like a
+                neighbor, because that&apos;s what they are.
               </p>
               <p>
                 That commitment to service has earned me the{" "}
@@ -56,11 +66,6 @@ export default function AboutPage() {
                 </span>{" "}
                 award two years running &mdash; in 2025 and 2026 &mdash; voted
                 by the neighbors and community members I serve.
-              </p>
-              <p>
-                My faith guides the way I work. I believe in treating every
-                home like my own and every client like a neighbor &mdash;
-                because that&apos;s what they are.
               </p>
             </div>
           </div>

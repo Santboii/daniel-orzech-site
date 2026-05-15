@@ -51,8 +51,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-navy-700 mt-8 pt-8 text-center">
-          <p className="italic text-copper text-sm mb-2" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
-            {businessInfo.motto}
+          <p className="text-copper text-lg md:text-xl mb-3" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+            <em>&ldquo;{businessInfo.motto}&rdquo;</em>
           </p>
           <p className="text-sm">
             &copy; {new Date().getFullYear()} {businessInfo.name}. All rights

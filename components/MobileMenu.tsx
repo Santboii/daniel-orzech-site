@@ -42,7 +42,7 @@ export default function MobileMenu({ links }: MobileMenuProps) {
         </svg>
       </button>
       {open && (
-        <nav className="absolute top-16 left-0 right-0 bg-navy-900 border-b-2 border-copper z-50">
+        <nav className="absolute top-[5.5rem] left-0 right-0 bg-navy-900 border-b-2 border-copper z-50">
           {links.map((link) => (
             <Link
               key={link.href}

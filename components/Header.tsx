@@ -12,12 +12,12 @@ const navLinks = [
 export default function Header() {
   return (
     <header className="bg-navy-900 border-b-2 border-copper">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 py-5 flex items-center justify-between">
         <Link href="/" className="block">
           <img
             src="/images/logo.svg"
             alt="Daniel Orzech - General Contractor"
-            className="h-12 md:h-14 w-auto"
+            className="h-16 md:h-[4.5rem] w-auto"
           />
         </Link>
         <nav className="hidden md:flex gap-6">

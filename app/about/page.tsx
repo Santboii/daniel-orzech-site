@@ -24,6 +24,13 @@ export default function AboutPage() {
 
       <section className="bg-warm-50 py-16">
         <div className="max-w-3xl mx-auto px-4">
+          <div className="flex justify-center mb-10">
+            <img
+              src="/images/logo-dark.svg"
+              alt="Daniel Orzech - General Contractor"
+              className="h-20 md:h-24 w-auto"
+            />
+          </div>
           <div className="bg-white rounded shadow-sm p-8 md:p-12">
             <h2 className="text-2xl font-bold text-navy-900 mb-6">
               Built on Trust, Driven by Craft

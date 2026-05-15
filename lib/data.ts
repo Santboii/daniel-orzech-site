@@ -20,8 +20,8 @@ export interface GalleryItem {
 
 export const businessInfo = {
   name: "Daniel Orzech",
-  phone: "708-770-0300",
-  phoneHref: "tel:+17087700300",
+  phone: "779-396-3038",
+  phoneHref: "tel:+17793963038",
   email: "danielorzech@ymail.com",
   location: "Gurnee, IL",
   tagline: "Hands-on craft. Real results.",

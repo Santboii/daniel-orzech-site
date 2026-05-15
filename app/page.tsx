@@ -23,8 +23,8 @@ export default function Home() {
             Nextdoor Neighborhood Favorite 2025 &amp; 2026
           </a>
           <span className="hidden md:inline text-slate-custom">|</span>
-          <a href="tel:+17087700300" className="hover:text-copper transition-colors">
-            708-770-0300
+          <a href="tel:+17793963038" className="hover:text-copper transition-colors">
+            779-396-3038
           </a>
           <span className="hidden md:inline text-slate-custom">|</span>
           <span className="text-slate-custom">

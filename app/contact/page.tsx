@@ -5,7 +5,7 @@ import { businessInfo } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get a free estimate for your renovation project. Call 708-770-0300 or send a message. Serving Gurnee, IL and the Chicago suburbs.",
+    "Get a free estimate for your renovation project. Call 779-396-3038 or send a message. Serving Gurnee, IL and the Chicago suburbs.",
 };
 
 export default function ContactPage() {

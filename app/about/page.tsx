@@ -30,27 +30,25 @@ export default function AboutPage() {
             </h2>
             <div className="text-gray-700 leading-relaxed space-y-4">
               <p>
-                Daniel Orzech is a general contractor based in Gurnee, Illinois,
+                I&apos;m a general contractor based in Gurnee, Illinois,
                 specializing in custom residential and commercial renovations.
                 With hands-on experience across kitchens, bathrooms, basements,
-                carpentry, concrete, electrical, and painting, Daniel brings a
+                carpentry, concrete, electrical, and painting, I bring a
                 full-service approach to every project.
               </p>
               <p>
-                Known for being knowledgeable, professional, and fairly priced,
-                Daniel has built his reputation through quality work and genuine
-                care for his clients. He&apos;s the kind of contractor who goes
-                beyond the task list &mdash; walking clients through their
-                options, explaining the work, and making sure every detail is
-                right.
+                I&apos;ve built my reputation through quality work and genuine
+                care for my clients. I go beyond the task list &mdash; walking
+                you through your options, explaining the work, and making sure
+                every detail is right.
               </p>
               <p>
-                That commitment to service has earned him the{" "}
+                That commitment to service has earned me the{" "}
                 <span className="font-semibold text-copper">
                   Nextdoor Neighborhood Favorite
                 </span>{" "}
                 award two years running &mdash; in 2025 and 2026 &mdash; voted
-                by the neighbors and community members he serves.
+                by the neighbors and community members I serve.
               </p>
             </div>
           </div>
@@ -76,6 +74,21 @@ export default function AboutPage() {
               </div>
               <div className="text-slate-custom text-xs">Nextdoor</div>
             </div>
+            <div className="hidden md:block w-px h-16 bg-navy-700" />
+            <div className="text-center">
+              <div className="text-copper text-4xl font-bold mb-1">161</div>
+              <div className="text-white text-sm font-semibold">
+                Nextdoor Subscribers
+              </div>
+              <a
+                href="https://nextdoor.com/page/daniel-orzech-gurnee-il"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-copper text-xs hover:text-copper-light transition-colors"
+              >
+                View Profile &rarr;
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -87,7 +100,7 @@ export default function AboutPage() {
             Service Area
           </h2>
           <p className="text-gray-700 mb-6">
-            We proudly serve the following communities and surrounding areas:
+            I proudly serve the following communities and surrounding areas:
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {businessInfo.serviceArea.map((area) => (

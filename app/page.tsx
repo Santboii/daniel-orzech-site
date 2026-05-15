@@ -14,9 +14,14 @@ export default function Home() {
       {/* Trust Bar */}
       <section className="bg-navy-700 py-4">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-sm text-white text-center">
-          <span className="text-copper font-bold tracking-wide">
+          <a
+            href="https://nextdoor.com/page/daniel-orzech-gurnee-il"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-copper font-bold tracking-wide hover:text-copper-light transition-colors"
+          >
             Nextdoor Neighborhood Favorite 2025 &amp; 2026
-          </span>
+          </a>
           <span className="hidden md:inline text-slate-custom">|</span>
           <a href="tel:+17087700300" className="hover:text-copper transition-colors">
             708-770-0300
@@ -32,7 +37,7 @@ export default function Home() {
       <section className="bg-warm-50 py-16">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-navy-900 text-center mb-2">
-            What We Do
+            What I Do
           </h2>
           <p className="text-gray-600 text-center mb-10">
             Residential and commercial renovation services
@@ -77,14 +82,14 @@ export default function Home() {
             Ready to Start Your Project?
           </h2>
           <p className="text-white/80 mb-8 max-w-lg mx-auto">
-            Get a free estimate for your next renovation. We serve Gurnee and
+            Get a free estimate for your next renovation. Serving Gurnee and
             the greater Chicago suburban area.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-navy-900 hover:bg-navy-700 text-white font-bold py-3 px-8 tracking-wide transition-colors"
           >
-            Contact Us
+            Get in Touch
           </Link>
         </div>
       </section>

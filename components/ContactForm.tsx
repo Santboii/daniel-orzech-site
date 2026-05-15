@@ -123,7 +123,7 @@ export default function ContactForm() {
 
       {status === "error" && (
         <p className="text-red-600 text-sm">
-          Something went wrong. Please try again or call us directly.
+          Something went wrong. Please try again or call me directly.
         </p>
       )}
 

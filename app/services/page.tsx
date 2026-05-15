@@ -14,10 +14,10 @@ export default function ServicesPage() {
     <>
       <section className="bg-navy-900 py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">Our Services</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">Services</h1>
           <p className="text-slate-custom max-w-2xl mx-auto">
             From kitchen and bathroom remodels to concrete work and electrical
-            upgrades, we handle residential and commercial projects of all
+            upgrades, I handle residential and commercial projects of all
             sizes.
           </p>
         </div>
@@ -39,8 +39,8 @@ export default function ServicesPage() {
             Need something not listed?
           </h2>
           <p className="text-white/80 mb-6">
-            We take on a wide range of projects. Reach out and let&apos;s
-            discuss your needs.
+            I take on a wide range of projects. Reach out and let&apos;s
+            discuss yours.
           </p>
           <Link
             href="/contact"

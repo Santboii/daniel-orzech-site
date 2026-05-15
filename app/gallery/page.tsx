@@ -4,7 +4,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "Browse our portfolio of completed renovation projects. Kitchen remodels, bathroom renovations, basement finishing, and more in the Chicago suburbs.",
+    "Browse my portfolio of completed renovation projects. Kitchen remodels, bathroom renovations, basement finishing, and more in the Chicago suburbs.",
 };
 
 export default function GalleryPage() {
@@ -12,9 +12,9 @@ export default function GalleryPage() {
     <>
       <section className="bg-navy-900 py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">Our Work</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">My Work</h1>
           <p className="text-slate-custom max-w-2xl mx-auto">
-            Browse our portfolio of completed projects. Click any image for a
+            Browse my portfolio of completed projects. Click any image for a
             closer look.
           </p>
         </div>

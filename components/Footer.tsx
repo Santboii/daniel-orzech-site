@@ -39,6 +39,14 @@ export default function Footer() {
               >
                 {businessInfo.email}
               </a>
+              <a
+                href="https://nextdoor.com/page/daniel-orzech-gurnee-il"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-copper transition-colors"
+              >
+                Nextdoor (161 subscribers)
+              </a>
             </div>
           </div>
         </div>

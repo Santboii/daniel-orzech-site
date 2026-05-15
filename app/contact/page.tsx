@@ -13,9 +13,9 @@ export default function ContactPage() {
     <>
       <section className="bg-navy-900 py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">Get in Touch</h1>
           <p className="text-slate-custom max-w-2xl mx-auto">
-            Ready to start your project? Send us a message or give us a call for
+            Ready to start your project? Send me a message or give me a call for
             a free estimate.
           </p>
         </div>

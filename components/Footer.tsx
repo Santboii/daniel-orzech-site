@@ -50,9 +50,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-navy-700 mt-8 pt-8 text-center text-sm">
-          &copy; {new Date().getFullYear()} {businessInfo.name}. All rights
-          reserved.
+        <div className="border-t border-navy-700 mt-8 pt-8 text-center">
+          <p className="italic text-copper text-sm mb-2" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+            {businessInfo.motto}
+          </p>
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} {businessInfo.name}. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

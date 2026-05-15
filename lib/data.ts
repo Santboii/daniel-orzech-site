@@ -25,6 +25,7 @@ export const businessInfo = {
   email: "danielorzech@ymail.com",
   location: "Gurnee, IL",
   tagline: "Hands-on craft. Real results.",
+  motto: "With God everything is possible.",
   subline: "Residential & Commercial Custom Renovations",
   serviceArea: [
     "Gurnee",

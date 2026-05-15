@@ -50,6 +50,11 @@ export default function AboutPage() {
                 award two years running &mdash; in 2025 and 2026 &mdash; voted
                 by the neighbors and community members I serve.
               </p>
+              <p>
+                My faith guides the way I work. I believe in treating every
+                home like my own and every client like a neighbor &mdash;
+                because that&apos;s what they are.
+              </p>
             </div>
           </div>
         </div>

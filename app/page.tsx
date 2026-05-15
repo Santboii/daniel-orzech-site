@@ -78,6 +78,9 @@ export default function Home() {
       {/* CTA */}
       <section className="bg-copper py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
+          <p className="italic text-white/70 mb-4" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+            With God everything is possible.
+          </p>
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Start Your Project?
           </h2>

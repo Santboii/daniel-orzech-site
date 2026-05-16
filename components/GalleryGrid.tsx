@@ -62,10 +62,17 @@ export default function GalleryGrid() {
           <button
             key={item.src}
             onClick={() => openLightbox(i)}
-            className="aspect-[4/3] bg-warm-100 bg-cover bg-center rounded overflow-hidden hover:opacity-90 transition-opacity cursor-pointer"
-            style={{ backgroundImage: `url(${item.src})` }}
+            className="relative aspect-[4/3] bg-warm-100 rounded overflow-hidden hover:opacity-90 transition-opacity cursor-pointer"
             aria-label={`View ${item.alt}`}
-          />
+          >
+            <img
+              src={item.src}
+              alt={item.alt}
+              loading="lazy"
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </button>
         ))}
       </div>
 

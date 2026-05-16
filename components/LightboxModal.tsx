@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 interface LightboxModalProps {
   src: string;
@@ -17,7 +17,11 @@ export default function LightboxModal({
   onPrev,
   onNext,
 }: LightboxModalProps) {
+  const closeRef = useRef<HTMLButtonElement>(null);
+
   useEffect(() => {
+    closeRef.current?.focus();
+
     function handleKey(e: KeyboardEvent) {
       if (e.key === "Escape") onClose();
       if (e.key === "ArrowLeft") onPrev();
@@ -33,6 +37,9 @@ export default function LightboxModal({
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image lightbox"
       className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
       onClick={onClose}
     >
@@ -41,7 +48,7 @@ export default function LightboxModal({
           e.stopPropagation();
           onPrev();
         }}
-        className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-copper transition-colors"
+        className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-copper transition-colors p-2"
         aria-label="Previous image"
       >
         &#8249;
@@ -57,14 +64,15 @@ export default function LightboxModal({
           e.stopPropagation();
           onNext();
         }}
-        className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-copper transition-colors"
+        className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-copper transition-colors p-2"
         aria-label="Next image"
       >
         &#8250;
       </button>
       <button
+        ref={closeRef}
         onClick={onClose}
-        className="absolute top-4 right-4 text-white text-2xl hover:text-copper transition-colors"
+        className="absolute top-4 right-4 text-white text-2xl hover:text-copper transition-colors p-2"
         aria-label="Close lightbox"
       >
         &times;

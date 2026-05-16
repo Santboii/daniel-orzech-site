@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80" width="380" height="80">
   <g transform="translate(16, 4)">
     <path d="M22 8 L4 22 L40 22 Z" fill="#b87333" stroke="none"/>
-    <rect x="8" y="22" width="28" height="22" fill="#1b2838"/>
+    <rect x="8" y="22" width="28" height="22" fill="#ffffff"/>
     <rect x="18" y="30" width="11" height="14" rx="1" fill="#b87333"/>
-    <circle cx="27" cy="38" r="1.2" fill="#1b2838"/>
+    <circle cx="27" cy="38" r="1.2" fill="#ffffff"/>
   </g>
   <text x="66" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="800" letter-spacing="2" fill="#ffffff">DANIEL ORZECH</text>
   <line x1="66" y1="31" x2="350" y2="31" stroke="#b87333" stroke-width="2"/>

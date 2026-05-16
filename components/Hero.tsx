@@ -3,10 +3,14 @@ import { businessInfo } from "@/lib/data";
 
 export default function Hero() {
   return (
-    <section
-      className="relative bg-navy-900 bg-cover bg-center min-h-[75vh] flex items-center"
-      style={{ backgroundImage: "url(/images/hero.jpg)" }}
-    >
+    <section className="relative bg-navy-900 min-h-[75vh] flex items-center">
+      <img
+        src="/images/hero.jpg"
+        alt="Custom renovation work by Daniel Orzech"
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
       <div className="absolute inset-0 bg-gradient-to-r from-navy-900/90 via-navy-900/60 to-navy-900/20" />
       <div className="relative max-w-6xl mx-auto px-4 py-24 w-full">
         <div className="max-w-xl">

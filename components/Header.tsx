@@ -20,7 +20,7 @@ export default function Header() {
             className="h-16 md:h-[4.5rem] w-auto"
           />
         </Link>
-        <nav className="hidden md:flex gap-6">
+        <nav aria-label="Main" className="hidden md:flex gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.href}

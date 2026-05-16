@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
-            <nav className="flex flex-col gap-2">
+            <nav aria-label="Footer" className="flex flex-col gap-2">
               <Link href="/services" className="text-sm hover:text-copper transition-colors">Services</Link>
               <Link href="/gallery" className="text-sm hover:text-copper transition-colors">Gallery</Link>
               <Link href="/about" className="text-sm hover:text-copper transition-colors">About</Link>

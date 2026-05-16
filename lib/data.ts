@@ -126,6 +126,27 @@ export const testimonials: Testimonial[] = [
     location: "Gurnee, IL",
     year: 2025,
   },
+  {
+    quote:
+      "Daniel Orzech did a great job on mounting my curtain rods. I contacted Dan based on NextDoor recommendations and am happy I did. He was responsive and was willing to do this small job in a timely manner. I would use him for other future jobs.",
+    author: "Tony",
+    location: "Morton Grove, IL",
+    year: 2024,
+  },
+  {
+    quote:
+      "Daniel was great to work with. He came all the way out to Niles to help us out. He swapped out some light fixture and some other things for us. I am sure we will ask him for help in the future.",
+    author: "Heather",
+    location: "Libertyville, IL",
+    year: 2024,
+  },
+  {
+    quote:
+      "This guy is simply amazing. He is the ultimate in handyman and does custom renovations. He quoted us a really fair price, arrived when he said he would. The job did come with unseen things that needed to be taken care of — he took care of it! He only charged us the original quote and the additional pipe we needed. He is professional, courteous, very knowledgeable and has a great sense of humor, too.",
+    author: "Gloria",
+    location: "IL",
+    year: 2024,
+  },
 ];
 
 export const neighborQualities = [

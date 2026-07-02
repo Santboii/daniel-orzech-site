@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
           <p className="text-white/80 text-lg mb-10 leading-relaxed">
             {businessInfo.subline}. Serving {businessInfo.location} and the
-            greater Chicago suburbs.
+            greater Chicagoland area.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link

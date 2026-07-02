@@ -4,7 +4,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "Browse my portfolio of completed renovation projects. Kitchen remodels, bathroom renovations, basement finishing, and more in the Chicago suburbs.",
+    "Browse my portfolio of completed renovation projects. Kitchen remodels, bathroom renovations, basement finishing, and more in the greater Chicagoland area.",
 };
 
 export default function GalleryPage() {

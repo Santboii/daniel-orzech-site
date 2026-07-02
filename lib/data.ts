@@ -23,11 +23,12 @@ export const businessInfo = {
   phone: "779-396-3038",
   phoneHref: "tel:+17793963038",
   email: "danielorzech@ymail.com",
-  location: "Gurnee, IL",
+  location: "Crystal Lake, IL",
   tagline: "Hands-on craft. Real results.",
   motto: "With God everything is possible.",
   subline: "Residential & Commercial Custom Renovations",
   serviceArea: [
+    "Crystal Lake",
     "Gurnee",
     "Niles",
     "Morton Grove",

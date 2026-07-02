@@ -6,7 +6,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Kitchen remodeling, bathroom renovation, basement finishing, carpentry, concrete, electrical, and painting services in Gurnee, IL and the Chicago suburbs.",
+    "Kitchen remodeling, bathroom renovation, basement finishing, carpentry, concrete, electrical, and painting services in Crystal Lake, IL and the greater Chicagoland area.",
 };
 
 export default function ServicesPage() {

@@ -11,25 +11,25 @@ const BASE_URL = "https://danielorzech.com";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Daniel Orzech | General Contractor | Gurnee, IL",
+    default: "Daniel Orzech | General Contractor | Crystal Lake, IL",
     template: "%s | Daniel Orzech Contractor",
   },
   description:
-    "Custom residential and commercial renovations in Gurnee, IL and the Chicago suburbs. Kitchen, bathroom, and basement remodeling. Nextdoor Neighborhood Favorite 2025 & 2026.",
+    "Custom residential and commercial renovations in Crystal Lake, IL and the greater Chicagoland area. Kitchen, bathroom, and basement remodeling. Nextdoor Neighborhood Favorite 2025 & 2026.",
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: "Daniel Orzech - General Contractor",
-    title: "Daniel Orzech | General Contractor | Gurnee, IL",
+    title: "Daniel Orzech | General Contractor | Crystal Lake, IL",
     description:
-      "Custom residential and commercial renovations in Gurnee, IL and the Chicago suburbs. Kitchen, bathroom, and basement remodeling.",
+      "Custom residential and commercial renovations in Crystal Lake, IL and the greater Chicagoland area. Kitchen, bathroom, and basement remodeling.",
     images: [{ url: "/images/hero.jpg", width: 1200, height: 630, alt: "Daniel Orzech General Contractor - Renovation Work" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Daniel Orzech | General Contractor | Gurnee, IL",
+    title: "Daniel Orzech | General Contractor | Crystal Lake, IL",
     description:
-      "Custom residential and commercial renovations in Gurnee, IL and the Chicago suburbs.",
+      "Custom residential and commercial renovations in Crystal Lake, IL and the greater Chicagoland area.",
     images: ["/images/hero.jpg"],
   },
   alternates: {

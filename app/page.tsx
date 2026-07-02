@@ -28,7 +28,7 @@ export default function Home() {
           </a>
           <span className="hidden md:inline text-slate-custom">|</span>
           <span className="text-slate-custom">
-            Gurnee, IL &amp; Chicago Suburbs
+            Crystal Lake, IL &amp; Greater Chicagoland
           </span>
         </div>
       </section>

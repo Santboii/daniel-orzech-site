@@ -6,20 +6,20 @@ export function LocalBusinessJsonLd() {
     "@type": "HomeAndConstructionBusiness",
     name: "Daniel Orzech - General Contractor",
     description:
-      "Custom residential and commercial renovations in Gurnee, IL and the Chicago suburbs. Kitchen, bathroom, and basement remodeling.",
+      "Custom residential and commercial renovations in Crystal Lake, IL and the greater Chicagoland area. Kitchen, bathroom, and basement remodeling.",
     url: "https://danielorzech.com",
     telephone: "+17793963038",
     email: businessInfo.email,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Gurnee",
+      addressLocality: "Crystal Lake",
       addressRegion: "IL",
       addressCountry: "US",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 42.3703,
-      longitude: -87.9392,
+      latitude: 42.2411,
+      longitude: -88.3162,
     },
     areaServed: businessInfo.serviceArea.map((area) => ({
       "@type": "City",

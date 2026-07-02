@@ -12,7 +12,7 @@ export default function Footer() {
             </h3>
             <p className="text-sm leading-relaxed">
               {businessInfo.subline}. Serving {businessInfo.location} and the
-              Chicago suburbs.
+              greater Chicagoland area.
             </p>
           </div>
           <div>

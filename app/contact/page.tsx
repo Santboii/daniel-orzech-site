@@ -5,7 +5,7 @@ import { businessInfo } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get a free estimate for your renovation project. Call 779-396-3038 or send a message. Serving Gurnee, IL and the Chicago suburbs.",
+    "Get a free estimate for your renovation project. Call 779-396-3038 or send a message. Serving Crystal Lake, IL and the greater Chicagoland area.",
 };
 
 export default function ContactPage() {
@@ -60,7 +60,7 @@ export default function ContactPage() {
                 </h3>
                 <p className="text-gray-700 text-sm leading-relaxed">
                   {businessInfo.serviceArea.join(", ")}, and surrounding areas
-                  in the Chicago suburbs.
+                  in the greater Chicagoland area.
                 </p>
               </div>
 

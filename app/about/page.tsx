@@ -5,7 +5,7 @@ import { businessInfo } from "@/lib/data";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about Daniel Orzech, a trusted general contractor serving Gurnee, IL and the Chicago suburbs. Nextdoor Neighborhood Favorite 2025 & 2026.",
+    "Learn about Daniel Orzech, a trusted general contractor serving Crystal Lake, IL and the greater Chicagoland area. Nextdoor Neighborhood Favorite 2025 & 2026.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
             About Daniel Orzech
           </h1>
           <p className="text-slate-custom max-w-2xl mx-auto">
-            Trusted contractor serving the Chicago suburbs
+            Trusted contractor serving the greater Chicagoland area
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function AboutPage() {
                 it shapes the way I treat every client and every home.
               </p>
               <p>
-                I&apos;m a general contractor based in Gurnee, Illinois,
+                I&apos;m a general contractor based in Crystal Lake, Illinois,
                 specializing in custom residential and commercial renovations.
                 With hands-on experience across kitchens, bathrooms, basements,
                 carpentry, concrete, electrical, and painting, I bring a
